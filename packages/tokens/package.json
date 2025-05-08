@@ -10,13 +10,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "devDependencies": {
     "tsup": "^8.4.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "@ignite-ui/ts-config": "*"
   },
   "dependencies": {
-    "@ignite-ui/tokens": "file:"
+    "@ignite-ui/ts-config": "*"
   }
 }
