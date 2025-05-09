@@ -14,7 +14,8 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@ignite-ui/tokens": "*"
+    "@ignite-ui/tokens": "*",
+    "@stitches/react": "^1.2.8"
   },
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",
