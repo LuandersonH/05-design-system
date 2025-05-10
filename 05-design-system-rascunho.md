@@ -8,3 +8,7 @@ o '--external react' abaixo indica que o script usara o react externo, ou seja, 
  "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --external react",
  }
+
+ <!-- peer dependencies -->
+
+dependências que colocavámos dentro de um pacote, que eram obrigatórias, mas não eram instaladas no momento que o pacote era instalado, fazendo com que o usuário tivesse que instalar no projeto. Não são mais suportadas, então hoje em dia instalamos como dependências comuns mesmo, ao invés de peer dependencies
