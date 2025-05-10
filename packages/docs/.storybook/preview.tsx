@@ -4,10 +4,7 @@ import { themes } from '@storybook/theming'
 
 const preview: Preview = {
   parameters: {
-    layout: 'fullscreen', // <- ESSENCIAL para remover padding dos wrappers do Storybook
-    docs: {
-      theme: themes.dark,
-    },
+    layout: 'fullscreen',
     controls: {
       matchers: {
         color: /(background|color)$/i,
