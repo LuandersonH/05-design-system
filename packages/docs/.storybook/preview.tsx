@@ -11,6 +11,9 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    docs: {
+      theme: themes.dark
+    }
   },
   decorators: [
     (Story) => (
@@ -32,6 +35,7 @@ const preview: Preview = {
       </div>
     ),
   ],
+
 }
 
 export default preview
