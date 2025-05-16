@@ -3,11 +3,11 @@
   "license": "MIT",
   "private": true,
   "main": "index.js",
-  "dependencies": {
-    "@ignite-ui/eslint-config": "file:"
-  },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "eslint": "^8.57.1"
+  },
+  "dependencies": {
+    "none": "0.0.0"
   }
 }

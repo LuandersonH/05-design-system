@@ -4,6 +4,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "@ignite-ui/ts-config": "file:"
+    "none": "0.0.0"
   }
 }

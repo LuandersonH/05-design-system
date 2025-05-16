@@ -1,9 +1,15 @@
 {
   "private": true,
+  "packageManager": "npm@10.9.0",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "devDependencies": {
-    "@types/node": "^22.15.17"
+    "@types/node": "^22.15.17",
+    "turbo": "^2.5.3"
   }
 }
