@@ -7,7 +7,12 @@ const config: StorybookConfig = {
     "../src/pages/**/*.mdx", 
     "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
-  addons: ['@storybook/addon-essentials'],
+  addons: [
+    '@storybook/addon-essentials'
+  ],
+    docs: {
+    autodocs: true, 
+  },
 };
  
 export default config;

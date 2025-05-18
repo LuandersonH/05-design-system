@@ -12,30 +12,16 @@ const preview: Preview = {
       },
     },
     docs: {
-      theme: themes.dark
-    }
+      theme: themes.dark,
+    },
+    backgrounds: {
+      default: 'dark',
+      values: [
+        { name: 'dark', value: '#1e1e1e' },
+        { name: 'light', value: '#ffffff' },
+      ],
+    },
   },
-  decorators: [
-    (Story) => (
-      <div
-        style={{
-          backgroundColor: '#121214',
-          color: '#FFFFFF',
-          padding: '0',
-          margin: '0',
-          minHeight: '100vh',
-          width: '100%',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          boxSizing: 'border-box',
-        }}
-      >
-        <Story />
-      </div>
-    ),
-  ],
-
 }
 
 export default preview

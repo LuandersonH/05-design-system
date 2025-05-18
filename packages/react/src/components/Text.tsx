@@ -1,6 +1,5 @@
 import { ElementType, ComponentProps } from 'react'
 import { styled } from '../styles'
-import { VariantProps } from '@stitches/react'
 
 export const Text = styled('p', {
   fontFamily: '$default',
