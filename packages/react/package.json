@@ -15,7 +15,9 @@
   "description": "",
   "dependencies": {
     "@ignite-ui/tokens": "*",
-    "@stitches/react": "^1.2.8"
+    "@radix-ui/react-avatar": "^1.1.9",
+    "@stitches/react": "^1.2.8",
+    "phosphor-react": "^1.4.1"
   },
   "devDependencies": {
     "@ignite-ui/eslint-config": "*",

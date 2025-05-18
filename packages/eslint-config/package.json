@@ -6,8 +6,5 @@
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.2.2",
     "eslint": "^8.57.1"
-  },
-  "dependencies": {
-    "none": "0.0.0"
   }
 }
