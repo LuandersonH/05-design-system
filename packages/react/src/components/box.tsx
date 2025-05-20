@@ -16,3 +16,5 @@ export type BoxProps = VariantProps<typeof Box>
 // Para aparecer td:
 // import { ComponentProps } from 'react'
 // export interface BoxProps extends ComponentProps<typeof Box> {}
+
+Box.displayName = 'Box'
