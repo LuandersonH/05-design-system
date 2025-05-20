@@ -8,6 +8,13 @@ export default {
     src: 'https://gru.ifsp.edu.br/images/phocagallery/galeria2/image03_grd.png',
     alt: 'Avatar',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

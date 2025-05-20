@@ -151,7 +151,7 @@ var Heading = styled("h2", {
       "3xl": { fontSize: "$6xl" },
       "4xl": { fontSize: "$7xl" },
       "5xl": { fontSize: "$8xl" },
-      "7xl": { fontSize: "$9xl" }
+      "6xl": { fontSize: "$9xl" }
     }
   }
 });
@@ -444,10 +444,6 @@ var Step = styled("div", {
     }
   }
 });
-MultiStepContainer.displayName = "MultiStepContainer";
-Label.displayName = "Label";
-Steps.displayName = "Steps";
-Step.displayName = "Step";
 
 // src/components/MultiStep/index.tsx
 var import_jsx_runtime4 = require("react/jsx-runtime");
