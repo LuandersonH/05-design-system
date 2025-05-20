@@ -8,7 +8,8 @@ const config: StorybookConfig = {
     "../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
   addons: [
-    '@storybook/addon-essentials'
+    '@storybook/addon-essentials',
+    '@storybook/addon-a11y'
   ],
     docs: {
     autodocs: true, 

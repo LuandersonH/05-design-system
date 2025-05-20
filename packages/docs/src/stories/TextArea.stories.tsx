@@ -31,9 +31,3 @@ export const Disabled: StoryObj<TextAreaProps> = {
     disabled: true,
   },
 }
-
-export const WithPrefix: StoryObj<TextAreaProps> = {
-  args: {
-    prefix: 'cal.com/',
-  },
-}
