@@ -1,0 +1,1 @@
+import{_ as e}from"./index-C5IbEVfT.js";import"./index-CgfFrydU.js";import"./_commonjsHelpers-CqkleIqs.js";const t={parameters:{layout:"fullscreen",controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{theme:e.dark},backgrounds:{default:"dark",values:[{name:"dark",value:"#1e1e1e"},{name:"light",value:"#ffffff"}]}}};export{t as default};
