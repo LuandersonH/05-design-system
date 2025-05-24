@@ -39,7 +39,7 @@ import {
   lineHeights,
   radii,
   space
-} from "@ignite-ui/tokens";
+} from "@lh-ignite-ui/tokens";
 import { createStitches, defaultThemeMap } from "@stitches/react";
 var {
   styled,

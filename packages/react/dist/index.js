@@ -72,7 +72,7 @@ __export(index_exports, {
 module.exports = __toCommonJS(index_exports);
 
 // src/styles/index.ts
-var import_tokens = require("@ignite-ui/tokens");
+var import_tokens = require("@lh-ignite-ui/tokens");
 var import_react = require("@stitches/react");
 var {
   styled,
