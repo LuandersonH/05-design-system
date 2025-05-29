@@ -19,13 +19,17 @@ export const Button = styled('button', {
 
   cursor: 'pointer',
 
+  svg: {
+    width: '$4',
+    height: '$4',
+  },
+
   '&:disabled': {
     cursor: 'not-allowed',
   },
 
-  sbg: {
-    width: '$4',
-    height: '$4',
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {

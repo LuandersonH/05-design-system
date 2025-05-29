@@ -17,3 +17,9 @@ dependências que colocavámos dentro de um pacote, que eram obrigatórias, mas 
 Biblioteca para manipulação de cores
 com a função abaixo, por exemplo, podemos criar um contraste baseado na cor original. temos o color que tem uma cor e o #fff que é o que desejamos que seja a cor do texto. Se o contraste for menor que 3.5, eu mudo para preto a cor, senão, mantenho branca mesmo. baseado no nivel de contraste das duas cores passadas como parâmetro, faço a função.
 color: getContrast(color, '#fff') < 3.5 ? '#000' : '#fff',
+
+<!-- Update -->
+1. Npm run changeset
+2. Npm run version-packages
+3. Git add . + git commit + git push
+- não deve rodr o build da pasta DOCS.
